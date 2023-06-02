@@ -59,7 +59,7 @@ class HTMLBuilder:
 html = HTMLBuilder()
 html.set_title("Site")
 html.add_paragraph("First paragraph")
-html.add_link("https://rickowens.eu", "Жми на ссылку")
+html.add_link("https://rickowens.eu", "Жми на ссылку, покупай одежду")
 html.add_div("fsdfd")
 html.add_h(1, "Я stylist")
 html.add_img("https://logodix.com/logo/1120105.jpg")
