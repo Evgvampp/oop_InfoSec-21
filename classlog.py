@@ -4,19 +4,19 @@ from abc import abstractmethod
 class Log:
     @abstractmethod
     def debug(self, text: str):
-        print("crit" + text)
+        print("debug" + text)
 
     @abstractmethod
     def info(self, text: str):
-        print("crit" + text)
+        print("info" + text)
 
     @abstractmethod
     def warn(self, text: str):
-        print("crit" + text)
+        print("warn" + text)
 
     @abstractmethod
     def error(self, text: str):
-        print("crit" + text)
+        print("error" + text)
 
     @abstractmethod
     def crit(self, text: str):
